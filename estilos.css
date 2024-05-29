@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
+
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/Skewed.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+/* Main */
+
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+}
+
+.cards img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(images/fondo1.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #2c3e50 transparent;
+}
+
+.titulo-patrocinadores {
+    color: #fff;
+    text-align: center;
+}
+.subtitulo-patrocinadores {
+    color: #fff;
+    text-align: justify;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cliente {
+    width: 30%;
+}
+
+.cliente img {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: #2c3e50;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 50px;
+    }
+
+    .none {
+        display: none
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .fondo {
+        height: auto;
+    }
+
+    .especial {
+        display: none;
+    }
+
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+
+    header .titulo {
+        font-size: 65px;
+    }
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all .2s linear;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
+}
+
+.container .title{
+   font-size: 3.5rem;
+   color:#444;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.container .products-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:2rem;
+}
+
+.container .products-container .product{
+   text-align: center;
+   padding:3rem 2rem;
+   background: #fff;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid #ccc;
+   outline-offset: -1.5rem;
+   cursor: pointer;
+}
+
+.container .products-container .product:hover{
+   outline: .2rem solid #222;
+   outline-offset: 0;
+}
+
+.container .products-container .product img{
+   height: 25rem;
+}
+
+.container .products-container .product:hover img{
+   transform: scale(.9);
+}
+
+.container .products-container .product h3{
+   padding:.5rem 0;
+   font-size: 2rem;
+   color:#444;
+}
+
+.container .products-container .product:hover h3{
+   color:#27ae60;
+}
+
+.container .products-container .product .price{
+   font-size: 2rem;
+   color:#444;
+}
+
+.products-preview{
+   position: fixed;
+   top:0; left:0;
+   min-height: 100vh;
+   width: 100%;
+   background: rgba(0,0,0,.8);
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.products-preview .preview{
+   display: none;
+   padding:2rem;
+   text-align: center;
+   background: #fff;
+   position: relative;
+   margin:2rem;
+   width: 40rem;
+}
+
+.products-preview .preview.active{
+   display: inline-block;
+}
+
+.products-preview .preview img{
+   height: 30rem;
+}
+
+.products-preview .preview .fa-times{
+   position: absolute;
+   top:1rem; right:1.5rem;
+   cursor: pointer;
+   color:#444;
+   font-size: 4rem;
+}
+
+.products-preview .preview .fa-times:hover{
+   transform: rotate(90deg);
+}
+
+.products-preview .preview h3{
+   color:#444;
+   padding:.5rem 0;
+   font-size: 2.5rem;
+}
+
+.products-preview .preview .stars{
+   padding:1rem 0;
+   font-size: 1.7rem;
+}
+
+.products-preview .preview .stars i{
+   color:#27ae60;
+}
+
+.products-preview .preview .stars span{
+   color:#999;
+}
+
+.products-preview .preview p{
+   line-height: 1.5;
+   padding:1rem 0;
+   font-size: 1.6rem;
+   color:#777;
+}
+
+.products-preview .preview .price{
+   padding:1rem 0;
+   font-size: 2.5rem;
+   color:#27ae60;
+}
+
+.products-preview .preview .buttons{
+   display: flex;
+   gap:1.5rem;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+}
+
+.products-preview .preview .buttons a{
+   flex:1 1 16rem;
+   padding:1rem;
+   font-size: 1.8rem;
+   color:#444;
+   border:.1rem solid #444;
+}
+
+.products-preview .preview .buttons a.cart{
+   background: #444;
+   color:#fff;
+}
+
+.products-preview .preview .buttons a.cart:hover{
+   background: #111;
+}
+
+.products-preview .preview .buttons a.buy:hover{
+   background: #444;
+   color:#fff;
+}
+
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .products-preview .preview img{
+      height: 25rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+}
