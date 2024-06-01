@@ -89,7 +89,7 @@ header .boton {
 
 .sobre-nosotros {
     text-align: center;
-    font-size: 56px;
+    font-size: 60px;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -102,11 +102,16 @@ header .boton {
 }
 
 .parrafo {
-    margin-bottom: 13px;
+    margin-bottom: 35px;
     font-weight: 300;
     text-align: justify;
     line-height: 24px;
     color: rgb(24, 16, 16);
+    font-size: 20px;
+}
+
+.contenedor-parrafos{
+    margin-top: 65px;
 }
 
 .acerca-de .boton {
@@ -121,6 +126,10 @@ header .boton {
     text-decoration: none;
     border-radius: 16px;
     margin-top: 24px;
+}
+
+.acerca-de .contenedor{
+    padding: 30px 0;
 }
 
 .galeria {
@@ -217,22 +226,16 @@ header .boton {
 .titulo-patrocinadores {
     color: #fff;
     text-align: center;
+    font-size: 60px;
+    margin-top: 90px;
 }
 
 .subtitulo-patrocinadores {
     color: #fff;
     text-align: justify;
-}
-
-.titulo-patrocinadores {
-    font-size: 56px;
-    margin-top: 48px;
-}
-
-.subtitulo-patrocinadores {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .clientes {
@@ -535,9 +538,10 @@ html {
 }
 
 .container .title {
-    font-size: 3.5rem;
-    color: #444;
-    margin-bottom: 3rem;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 70px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -615,6 +619,7 @@ html {
 
 .products-preview .preview img {
     height: 30rem;
+    max-width: 100%;
 }
 
 .products-preview .preview .fa-times {
