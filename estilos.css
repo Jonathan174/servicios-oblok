@@ -521,7 +521,6 @@ input[type="submit"] {
     border: none;
     text-decoration: none;
     transition: all .2s linear;
-    text-transform: capitalize;
 }
 
 html {
@@ -583,7 +582,7 @@ html {
 }
 
 .container .products-container .product:hover h3 {
-    color: #27ae60;
+    color: #1F618D;
 }
 
 .container .products-container .product .price {
@@ -647,7 +646,7 @@ html {
 }
 
 .products-preview .preview .stars i {
-    color: #27ae60;
+    color: #1F618D;
 }
 
 .products-preview .preview .stars span {
@@ -664,7 +663,7 @@ html {
 .products-preview .preview .price {
     padding: 1rem 0;
     font-size: 2.5rem;
-    color: #27ae60;
+    color: #1F618D;
 }
 
 .products-preview .preview .buttons {
