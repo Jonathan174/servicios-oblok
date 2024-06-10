@@ -355,161 +355,6 @@ input[type="submit"] {
     width: 96px;
 }
 
-
-
-
-
-/* Responsive */
-
-@media (max-width:991px) {
-
-    html {
-        font-size: 55%;
-    }
-
-}
-
-@media screen and (max-width:900px) {
-    .card {
-        width: 48%;
-    }
-}
-
-@media (max-width:768px) {
-
-    .products-preview .preview img {
-        height: 25rem;
-    }
-
-}
-
-@media screen and (max-width:610px) {
-    header .textos {
-        margin-top: 130px;
-    }
-
-    header .titulo {
-        font-size: 50px;
-    }
-
-    .none {
-        display: none
-    }
-
-    .imagenes {
-        flex-grow: 1;
-    }
-
-    .card {
-        width: 90%;
-    }
-
-    .fondo {
-        height: auto;
-        padding-block: 150px;
-    }
-
-    .especial {
-        
-    }
-
-    .cliente {
-        width: 90%;
-        height: 200px;
-        margin-bottom: 50px;
-    }
-
-    .titulo-footer {
-        font-size: 42px;
-    }
-
-    .subtitulo-footer {
-        font-size: 12px;
-        width: 151px;
-    }
-}
-
-@media (max-width:450px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    header .titulo {
-        font-size: 45px;
-    }
-
-    header .subtitulo{
-        margin-top: 25px;
-        font-size: 30px;
-        max-width: 80%;
-    }
-
-}
-
-@media screen and (max-width:380px) {
-    header .textos {
-        margin-top: 100px;
-    }
-
-    header .titulo {
-        font-size: 65px;
-    }
-
-    header .subtitulo {
-        font-size: 25px;
-        margin-bottom: 32px;
-    }
-
-    .sobre-nosotros {
-        font-size: 46px;
-    }
-
-    .slogan {
-        font-size: 20px;
-    }
-
-    .titulo-patrocinadores {
-        font-size: 46px;
-    }
-
-    .subtitulo-patrocinadores {
-        font-size: 20px;
-    }
-
-    header .titulo {
-        font-size: 40px;
-    }
-
-    header .subtitulo{
-        margin-top: 25px;
-        font-size: 27px;
-        max-width: 80%;
-    }
-}
-
-@media (max-width:375px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    header .titulo {
-        font-size: 35px;
-    }
-
-    header .subtitulo{
-        margin-top: 25px;
-        font-size: 25px;
-        max-width: 80%;
-    }
-
-}
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
 * {
@@ -693,4 +538,165 @@ html {
 .products-preview .preview .buttons a.buy:hover {
     background: #444;
     color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .products-preview .preview img {
+        height: 25rem;
+    }
+
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 50px;
+    }
+
+    .none {
+        display: none
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .fondo {
+        height: auto;
+        padding-block: 150px;
+    }
+
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .titulo-footer {
+        font-size: 42px;
+    }
+
+    .subtitulo-footer {
+        font-size: 12px;
+        width: 151px;
+    }
+}
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    header .titulo {
+        font-size: 45px;
+    }
+
+    header .subtitulo{
+        margin-top: 25px;
+        font-size: 30px;
+        max-width: 80%;
+    }
+
+    .container .title {
+        font-size: 50px;
+        color: #000000;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+
+    header .titulo {
+        font-size: 65px;
+    }
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+
+    header .titulo {
+        font-size: 40px;
+    }
+
+    header .subtitulo{
+        margin-top: 25px;
+        font-size: 27px;
+        max-width: 80%;
+    }
+
+    .container .title {
+        font-size: 40px;
+        color: #000000;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    header .titulo {
+        font-size: 35px;
+    }
+
+    header .subtitulo{
+        margin-top: 25px;
+        font-size: 25px;
+        max-width: 80%;
+    }
+
 }
