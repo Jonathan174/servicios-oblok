@@ -1,276 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comercializadora OBLOK</title>
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="estilos.css">
-    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
 
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
-<body>
-    <header>
-        <div class="textos">
-            <div class="contenedor-header">
-                <h1 class="titulo">Comercializadora OBLOK</h1>
-                <h3 class="subtitulo">Soluciones de Empaquetado</h3>
-                <a href="#" class="boton">Contacta</a>
-            </div>
+    <link rel="stylesheet" href="styles.css" />
+    <title>KLOOB</title>
+     <!-- Enlace al favicon -->
+     <link rel="icon" href="assets\favicon.png" type="image/png">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
         </div>
-        <div class="sesgoabajo"></div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#about"><b>Nosotros </b></a></li>
+          <li><a href="#calidad"><b>Calidad </b></a></li>
+          <li><a href="#service"><b>Servicios </b></a></li>
+          <li><a href="#contact"><b>Contacto </b></a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        
+        <h1>KLOOB<br /><span></span></h1>
+        <p>Ofrecemos soluciones integrales desde el diseño hasta la producción, 
+          garantizando la satisfacción del cliente y el desarrollo continuo 
+          del personal, con un fuerte compromiso con la ética y el medio ambiente.</p>
+      </div>
     </header>
-    <main>
-        <section class="acerca-de">
-            <div class="contenedor">
-                <h2 class="sobre-nosotros">¿Quiénes somos?</h2>
-                <div class="contenedor-parrafos">
-                    <p class="parrafo">OBLOK es una empresa 100% mexicana ubicada en Zapopan, Jalisco, especializada en
-                        la
-                        venta de productos de empaques de alta calidad. Desde nuestros inicios, nos hemos dedicado a
-                        proteger los productos de nuestros clientes-socios, asegurando que lleguen a su destino en
-                        perfectas
-                        condiciones.</p>
-                    </p>
-                    <p class="parrafo">Nuestra empresa se destaca por su compromiso con la innovación y la mejora
-                        continua,
-                        utilizando tecnologías avanzadas y prácticas sostenibles en todos nuestros procesos. Contamos
-                        con un
-                        equipo altamente capacitado y comprometido, que trabaja con pasión y dedicación para ofrecer
-                        soluciones personalizadas y adaptadas a las necesidades específicas de cada cliente.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="galeria">
-            <div class="sesgoarriba"></div>
-            <div class="imagenes none">
-                <img src="images\1.jpg" alt="">
-            </div>
-            <div class="imagenes">
-                <img src="images\3.jpg" alt="">
-            </div>
-            <div class="imagenes">
-                <img src="images\2.jpg" alt="">
 
-            </div>
-            <div class="imagenes">
-                <img src="images\4.jpg" alt="">
 
-            </div>
-            <div class="imagenes none">
-                <img src="images\5.jpg" alt="">
-            </div>
-            <div class="sesgoabajo"></div>
-        </section>
-        <section class="acerca-de">
-            <div class="contenedor">
-                <h2 class="sobre-nosotros">Misión</h2>
-                <div class="contenedor-parrafos">
-                    <p class="parrafo">Nuestra misión es proporcionar soluciones de empaquetado de alta calidad que
-                        garanticen la seguridad y protección de los productos de nuestros clientes. Nos comprometemos a
-                        exceder sus expectativas a través de la innovación continua, el uso de
-                        tecnología avanzada y la implementación de prácticas sostenibles. En OBLOK, buscamos no solo
-                        satisfacer sino también anticipar las necesidades de nuestros clientes, ofreciendo un servicio
-                        excepcional y personalizado.
-                    </p>
-                </div>
-            </div>
-            <div class="contenedor">
-                <h2 class="sobre-nosotros">Visión</h2>
-                <div class="contenedor-parrafos">
-                    <p class="parrafo">La visión de OBLOK es convertirse en el líder del mercado de empaquetado en el
-                        área
-                        metropolitana de Jalisco y más allá. Aspiramos a expandir nuestro alcance a nivel nacional,
-                        estableciendo nuevos estándares de calidad y servicio en la industria.
-                        Nos comprometemos a ser un socio de confianza para nuestros clientes, contribuyendo
-                        positivamente a
-                        la comunidad y promoviendo la sostenibilidad ambiental en todas nuestras operaciones. Queremos
-                        ser
-                        reconocidos por nuestra innovación, responsabilidad social y excelencia en cada proyecto que
-                        emprendemos.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="fondo">
-            <div class="sesgoarriba"></div>
-            <div class="contenedor">
-                <h2 class="titulo-patrocinadores">Política de Calidad:</h2>
-                <div class="contenedor-parrafos">
-                    <h3 class="subtitulo-patrocinadores especial">En OBLOK, estamos comprometidos en ofrecer soluciones
-                        de
-                        empaquetado que no solo cumplan, sino que superen las expectativas de nuestros clientes. Nuestra
-                        política de calidad se fundamenta en los siguientes principios:</h3>
-                    <h3 class="subtitulo-patrocinadores especial"><strong>Satisfacción del Cliente: </strong>Nos
-                        enfocamos
-                        en entender y satisfacer las necesidades específicas de cada cliente, ofreciendo un servicio
-                        personalizado y una atención excepcional.</h3>
-                    <h3 class="subtitulo-patrocinadores especial"><strong>Calidad del Producto: </strong>Garantizamos
-                        que
-                        cada producto entregado cumpla con los más altos estándares de calidad, asegurando la protección
-                        y
-                        seguridad de los productos de nuestros clientes.</h3>
-                    <h3 class="subtitulo-patrocinadores especial"><strong>Entrega Puntual: </strong>Nos comprometemos a
-                        realizar entregas puntuales y eficientes, respetando los plazos acordados y asegurando la
-                        satisfacción del cliente.</h3>
-                </div>
-            </div>
-        </section>
-        <section class="container">
-            <div class="contenedor">
-                <h3 class="title"> Nuestros productos </h3>
-                <p style="text-align: center;">Da click en el producto para ver detalles</p>
+    <section class="section__container about__container" id="about" style="padding-bottom: 5rem;">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">Nosotros</p>
+        <h2 class="section__header">Misión</h2>
+        <p class="section__description" style="text-align: justify;">
+          Proveer productos plásticos de alta calidad mediante diseño, 
+          innovación y tecnología, garantizando el desarrollo del personal 
+          y la sostenibilidad en armonía con el medio ambiente, valorando al ser humano.
+        </p>
+        
+        <h2 class="section__header">Visión</h2>
+        <p class="section__description" style="text-align: justify;">
+          Ser una empresa líder mundial en la industria del plástico, destacando 
+          por la innovación y calidad, y accediendo a mercados globales.
+        </p>
+      </div>
+    </section>
 
-                <div class="products-container">
+    
 
-                    <div class="product" data-name="p-1">
-                        <img src="images\riibon.png" alt="">
-                        <h3>Ribbon</h3>
-                    </div>
-
-                    <div class="product" data-name="p-2">
-                        <img src="images\esquinero.jpg" alt="">
-                        <h3>Esquinero</h3>
-                    </div>
-
-                    <div class="product" data-name="p-3">
-                        <img src="images\etiqueta.jpg" alt="">
-                        <h3>Etiqueta</h3>
-                    </div>
-
-                    <div class="product" data-name="p-4">
-                        <img src="images\emplaye.png" alt="">
-                        <h3>Emplaye</h3>
-                    </div>
-
-                    <div class="product" data-name="p-5">
-                        <img src="images\cintas.png" alt="">
-                        <h3>Cintas adhesivas</h3>
-                    </div>
-
-                    <div class="product" data-name="p-6">
-                        <img src="images\tubos.png" alt="">
-                        <h3>Tubos de cartón</h3>
-                    </div>
-
-                    <div class="product" data-name="p-7">
-                        <img src="images\nucleos.jpg" alt="">
-                        <h3>Nucleos de cartón</h3>
-                    </div>
-
-                    <div class="product" data-name="p-8">
-                        <img src="images\cajas.png" alt="">
-                        <h3>Cajas de cartón</h3>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="products-preview">
-
-                <div class="preview" data-target="p-1">
-                    <i class="fas fa-times"></i>
-                    <img src="images\riibon.png" alt="">
-                    <h3>Ribbon</h3>
-                    <p>Disponemos de diversos tipos de materiales: cera estándar, cera premium, cera con resina estándar, cera con resina premium, resina estándar, resina premium y textil.</p>
-                    <p>Ofrecemos una amplia variedad de tamaños en todos nuestros productos de RIBBON.</p>
-                    <p>Nuestro ribbon es eficiente en múltiples sectores, desde la industria alimentaria hasta la automotriz, farmacéutica, química y textil.</p>
-                </div>
-
-                <div class="preview" data-target="p-2">
-                    <i class="fas fa-times"></i>
-                    <img src="images\esquinero.jpg" alt="">
-                    <h3>Esquinero</h3>
-                    <p>Nuestros esquineros ofrecen la calidad y rigidez necesarias para proteger tus productos y tarimas.</p>
-                    <p>Las medidas más comunes son 2x2x2 metros en calibres 90, 100, 110 y 120, así como 2x2x2.40 metros en calibre 110.</p>
-                    <p>También podemos fabricar esquineros en cualquier medida y grosor que necesites.</p>
-                </div>
-
-                <div class="preview" data-target="p-3">
-                    <i class="fas fa-times"></i>
-                    <img src="images\etiqueta.jpg" alt="">
-                    <h3>Etiqueta</h3>
-                    <p>Ofrecemos una amplia variedad de medidas de etiquetas estándar. Además, podemos fabricar suajes personalizados si no encuentras la medida que necesitas.</p>
-                    <p>Nuestras etiquetas son ideales para la industria alimenticia, paquetería, botellas de plástico, cajas y botellas de vidrio.</p>
-                </div>
-
-                <div class="preview" data-target="p-4">
-                    <i class="fas fa-times"></i>
-                    <img src="images\emplaye.png" alt="">
-                    <h3>Emplaye</h3>
-                    <p>Nuestro playo destaca por su excelente calidad y gran flexibilidad al estirarlo.</p>
-                    <p>Tenemos todas las medidas y calibres disponibles, cotiza según tus necesidades.</p>
-                    <p>Es ideal para entarimar cajas, envolver piezas de metal, fierro, acero y proteger productos para almacenarlos.</p>
-                </div>
-
-                <div class="preview" data-target="p-5">
-                    <i class="fas fa-times"></i>
-                    <img src="images\cintas.png" alt="">
-                    <h3>Cintas adhesivas</h3>
-                    <p>Ofrecemos una amplia variedad de modelos y medidas de cintas adhesivas de diferentes marcas.</p>
-                    <p>Nuestras cintas son ideales para industrias como paquetería, cierre de cajas de cartón, pegado de productos y protección de materiales.</p>
-                </div>
-
-                <div class="preview" data-target="p-6">
-                    <i class="fas fa-times"></i>
-                    <img src="images\tubos.png" alt="">
-                    <h3>Tubos de cartón</h3>
-                    <p>Fabricamos tubos de cartón en cualquier medida, con excelente calidad y grosor.</p>
-                    <p>Nuestros tubos son utilizados en industrias para emplaye, soporte de lonas enrolladas y materiales de papelería.</p>
-                </div>
-
-                <div class="preview" data-target="p-7">
-                    <i class="fas fa-times"></i>
-                    <img src="images\nucleos.jpg" alt="">
-                    <h3>Nucleos de cartón</h3>
-                    <p>Nuestros núcleos de cartón ofrecen excelente apoyo, rigidez y confiabilidad.</p>
-                    <p>Están diseñados para la industria de etiquetas, emplaye, núcleos de ribbon, papel, aluminio y vitafilm.</p>
-                </div>
-
-                <div class="preview" data-target="p-8">
-                    <i class="fas fa-times"></i>
-                    <img src="images\cajas.png" alt="">
-                    <h3>Cajas de cartón</h3>
-                    <p>Fabricamos cajas a medida, con o sin diseño, según tus necesidades.</p>
-                    <p>Nuestras cajas de excelente calidad son ideales para las industrias de paquetería, farmacéutica, acero, metal, alimenticia y almacenamiento.</p>
-                </div>
-            </div>
-        </section>
-        <div class="sesgoabajo-unico"></div>
-    </main>
-    <footer>
-        <div class="contenedor">
-            <h2 class="titulo-footer">Contáctanos</h2>
-            <p class="subtitulo-patrocinadores especial"  style="text-align: center;">Dando click en los siguientes enlaces</p>
-            <div class="contenedor-texto-contacto">
-                <div class="contenedorIconos">
-                    <i class="fas fa-envelope iconos"></i>
-                    <a href="mailto:bcontacto.oblok@gmail.com">
-                        <h3 class="subtitulo-footer">bcontacto.oblok@gmail.com</h3>
-                    </a>
-                </div>
-
-                <div class="contenedorIconos">
-                    <i class="fas fa-phone-alt iconos"></i>
-                    <a href="https://wa.me/8129190517">
-                        <h3 class="subtitulo-footer">8129190517</h3>
-                    </a>
-                </div>
-
-                <div class="contenedorIconos">
-                    <i class="fas fa-phone-alt iconos"></i>
-                    <a href="https://wa.me/3314384238">
-                        <h3 class="subtitulo-footer">3314384238</h3>
-                    </a>
-                </div>
-            </div>
+    <section class="service" id="calidad" style="padding-top: 5rem;">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICIOS</p>
+          <h2 class="section__header">Acciones que nos distinguen:</h2>
+          <ul class="service__list">
+            <li>
+              <span><i></i></span>
+              Desarrollo del proyecto : IDEA – PIEZA – PRODUCCION.
+            </li>
+            <li>
+              <span><i></i></span>
+              Proveedor confiable : MOLDE – PIEZAS.
+            </li>
+            <li>
+              <span><i></i></span>
+              Pedido a tus medidas y necesidades.
+            </li>
+            <li>
+              <span><i></i></span>
+              Proyectos con el seguimiento de tus planes.
+            </li>
+            <li>
+              <span><i></i></span>
+              Representación con tus clientes.
+            </li>
+          </ul>
         </div>
-    </footer>
-</body>
+      </div>
+    </section>
 
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>5+</h4>
+          <p>Revoluciones de procesos</p>
+        </div>
+        <div class="banner__card">
+          <h4>20+</h4>
+          <p>Projectos realizados</p>
+        </div>
+        <div class="banner__card">
+          <h4>50+</h4>
+          <p>Clientes satisfechos</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <section class="explore" id="service">
+      <div class="container">
+          <p class="section__subheader">Servicios</p>
+
+          <div class="section__container" style="padding: 1rem;">
+            <h2 class="section__header" style="color: #6403af;">KLOOB: Tu socio en soluciones plásticas.</h2>
+            <h2 class="section__header" style="font-size: 1.7rem;">Fabricación de moldes.</h2>
+            <p style="color: black; text-align: justify;">KLOOB brinda soporte completo, desde el diseño de una idea hasta la creación 
+              de piezas físicas. Hacemos realidad tus ideas mediante diseño en computadora, proporcionando prototipos para revisión y 
+              autorización antes de proceder a la fabricación de moldes para producción masiva, con una innovación 100% KLOOB.
+              </p>
+            <p style="color: black; text-align: justify;">Fabricamos moldes con un enfoque en tu rentabilidad, 
+                ofreciendo opciones variadas y accesibles para tu proyecto. Nuestros servicios incluyen:</p>
+            <ul style="text-align: center;">
+              <p>- Diseño</p>
+              <p>- Prototipo</p>
+              <p>- Maquinado</p>
+              <p>- Molde</p>
+              <p>- Producto terminado</p>
+            </ul>
+          </div>
+
+          <div class="section__container" style="padding: 1rem; padding-bottom: 3rem;">
+            <h2 class="section__header" style="font-size: 1.7rem;">Inyección de Piezas de Plástico</h2>
+            <p style="color: black; text-align: justify;">En KLOOB, somos especialistas en el proceso de inyección de plástico. Ofrecemos soluciones 
+              completas para proyectos, satisfaciendo las expectativas de nuestros clientes con la producción de piezas de alta calidad.</p>
+            <p style="color: black; text-align: justify;">Contamos con maquinaria de 60 a 120 toneladas, lo que nos permite ser proveedores 
+              preferidos en el mercado, ofreciendo soluciones integrales en la maquila de piezas de inyección de plástico.</p>
+            <ul style="text-align: center;">
+              <p>- Envases y vasos</p>
+              <p>- Piezas industriales</p>
+              <p>- Artículos de oficina</p>
+              <p>- Productos para mascotas</p>
+              <p>- Juguetes</p>
+              <p>- Novedades</p>
+            </ul>
+            </div>
+      </div>
+    </section>
+
+
+    <section class="section__container room__container" id="galery">
+      <p class="section__subheader">Galería</p>
+      <!--
+        <h2 class="section__header">Evidencia de nuestro excelente trabajo.</h2>
+      -->
+      
+      
+      <div class="slider">
+        <div class="slide-track">
+            <!-- 7 slides -->
+            <div class="slide">
+                <img src="assets\carousel1\paso1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso5.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso6.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso7.jpg" alt="">
+            </div>
+
+            <!-- 7 slides duplicados-->
+            <div class="slide">
+                <img src="assets\carousel1\paso1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso5.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso6.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets\carousel1\paso7.jpg" alt="">
+            </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li>
+              <a href="https://wa.me/3314384238"><h4>3314384238</h4></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li>
+              <a href="mailto:bcontacto.oblok@gmail.com"><h4>bcontacto.oblok@gmail.com</h4></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col"> 
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 KLOOB.  All rights reserved.
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
